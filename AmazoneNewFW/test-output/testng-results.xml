@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-30T18:00:11 IST" name="Suite" finished-at="2022-07-30T18:00:21 IST" duration-ms="10098">
+    <groups>
+    </groups>
+    <test started-at="2022-07-30T18:00:11 IST" name="Test" finished-at="2022-07-30T18:00:21 IST" duration-ms="10098">
+      <class name="TestCases.TC2">
+        <test-method is-config="true" signature="setup1()[pri:0, instance:TestCases.TC2@3cce5371]" started-at="2022-07-30T18:00:19 IST" name="setup1" finished-at="2022-07-30T18:00:19 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method signature="verifyNavigationToAirIndiaPage(java.lang.String)[pri:0, instance:TestCases.TC2@3cce5371]" started-at="2022-07-30T18:00:19 IST" name="verifyNavigationToAirIndiaPage" data-provider="dp1" finished-at="2022-07-30T18:00:21 IST" duration-ms="1660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Air India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationToAirIndiaPage -->
+      </class> <!-- TestCases.TC2 -->
+      <class name="TestCases.TC1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC1@eadd4fb]" started-at="2022-07-30T18:00:11 IST" name="setup" finished-at="2022-07-30T18:00:17 IST" duration-ms="6028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup1()[pri:0, instance:TestCases.TC1@eadd4fb]" started-at="2022-07-30T18:00:17 IST" name="setup1" finished-at="2022-07-30T18:00:17 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method signature="userSelectTravelType()[pri:0, instance:TestCases.TC1@eadd4fb]" started-at="2022-07-30T18:00:17 IST" name="userSelectTravelType" finished-at="2022-07-30T18:00:17 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userSelectTravelType -->
+        <test-method signature="userSelectTravelDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC1@eadd4fb]" started-at="2022-07-30T18:00:18 IST" name="userSelectTravelDetails" data-provider="dp1" finished-at="2022-07-30T18:00:19 IST" depends-on-methods="TestCases.TC1.userSelectTravelType" duration-ms="999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kochi, India (COK)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mumbai, India (BOM)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/07/22]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userSelectTravelDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC1@eadd4fb]" started-at="2022-07-30T18:00:21 IST" name="tearDown" finished-at="2022-07-30T18:00:21 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
